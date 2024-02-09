@@ -1,6 +1,9 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navigation = (props) => {
+function Navigation() {
   const onPress = (e) => {
     e.preventDefault();
     const target = window.document.getElementById(
@@ -12,30 +15,36 @@ const Navigation = (props) => {
   };
 
   return (
-    <div>
-      <div>
-        <a onClick={(e) => onPress(e)} href="#orange">
-          <div data-to-scrollspy-id="orange" className={"ss-item"}>
-            orange
-          </div>
-        </a>
-        <a onClick={(e) => onPress(e)} href="#brown">
-          <div data-to-scrollspy-id="brown" className={"ss-item"}>
-            brown
-          </div>
-        </a>
-        <a onClick={(e) => onPress(e)} href="#blue">
-          <div data-to-scrollspy-id="blue" className={"ss-item"}>
-            blue
-          </div>
-        </a>
-        <a onClick={(e) => onPress(e)} href="#green">
-          <div data-to-scrollspy-id="green" className={"ss-item"}>
-            green
-          </div>
-        </a>
-      </div>
-    </div>
+    <>
+    <Navbar bg="dark" data-bs-theme="dark">
+          <Container>
+            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Nav className="me-auto">
+              <Nav.Link 
+                onClick={(e) => onPress(e)} 
+                href="#orange">Orange
+                <div data-to-scrollspy-id="brown" className={"ss-item"}>
+                  orange
+                </div>
+              </Nav.Link>
+              <Nav.Link 
+                onClick={(e) => onPress(e)} 
+                href="#brown">Brown
+                <div data-to-scrollspy-id="brown" className={"ss-item"}>
+                  brown
+                </div>
+              </Nav.Link>
+              <Nav.Link 
+                onClick={(e) => onPress(e)} 
+                href="#orange">Orange
+                <div data-to-scrollspy-id="brown" className={"ss-item"}>
+                  orange
+                </div>
+              </Nav.Link>
+            </Nav>
+          </Container>
+    </Navbar>
+    </>
   );
 };
 
