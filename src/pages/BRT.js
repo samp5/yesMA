@@ -1,8 +1,6 @@
 import ScrollSpy from "react-ui-scrollspy";
 import React, { useEffect } from 'react';
-import PieChart from '../components/PieChart';
-import { ParallaxProvider} from 'react-scroll-parallax';
-import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { scrollSpy} from 'react-scroll';
 import CarDeathPieChart from '../components/CarDeathPieChart';
 import RoadSpace from "../components/RoadSpace";
 
@@ -11,10 +9,6 @@ const Demo1 = (props) => {
     scrollSpy.update();
   }, []);
 
-const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
- 
   return (
     <>
       <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
@@ -48,7 +42,7 @@ Any unnatural death is one too many. Cars are a major cause of harm and deaths t
                       </div>                  
                         <p style={{textAlign: "center"}}>
                       <h1>Road Usage</h1>
-
+Hate being stuck in traffic every morning and afternoon? Have you ever thought about the amount of space being wasted when so many cars are just transporting one person? This graph illustrates just how space inefficient cars are and how efficient buses are. On a bus, the amount of space per person is just 1.4x that of walking while in cars the amount of space per person is 5x higher!
                       </p>
                     </div>
                   </div>
@@ -58,7 +52,7 @@ Any unnatural death is one too many. Cars are a major cause of harm and deaths t
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><img src ='https://cdn.discordapp.com/attachments/1205673502149972089/1205970137342017697/emissions.png?ex=65da4e36&is=65c7d936&hm=6ef9f587352065bea756b5928ce941c11bc1c0b5b15d83bf85edc0526784772f&'/>
+                        <fig ><img alt ="" src ='https://cdn.discordapp.com/attachments/1205673502149972089/1205970137342017697/emissions.png?ex=65da4e36&is=65c7d936&hm=6ef9f587352065bea756b5928ce941c11bc1c0b5b15d83bf85edc0526784772f&'/>
                           <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Emmission Data</figcaption>
                         </fig>
                       </div>                  
@@ -78,7 +72,7 @@ Any unnatural death is one too many. Cars are a major cause of harm and deaths t
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><img src = 'https://media.discordapp.net/attachments/1205673502149972089/1205987146855620708/image.png?ex=65da5e0d&is=65c7e90d&hm=d6740d6dcef0e1edb5d08cb805dd2d6cf1e1b89bc94c478a47a82ca503b3b32d&=&format=webp&quality=lossless&width=1057&height=463'/>
+                        <fig ><img alt ="" src = 'https://media.discordapp.net/attachments/1205673502149972089/1205987146855620708/image.png?ex=65da5e0d&is=65c7e90d&hm=d6740d6dcef0e1edb5d08cb805dd2d6cf1e1b89bc94c478a47a82ca503b3b32d&=&format=webp&quality=lossless&width=1057&height=463'/>
                           <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Transportion Growth due to Bus Rapid Transit</figcaption>
                         </fig>
                       </div>                  
@@ -100,7 +94,7 @@ This will help the economy since every $1,000,000,000 invested in our public tra
                     <div className="grid grid-rows-1 grid-flow-col gap-1" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><img src ='https://media.discordapp.net/attachments/1205673502149972089/1205984688855056494/Screenshot_2024-02-10_at_3.12.29_PM.png?ex=65da5bc3&is=65c7e6c3&hm=3f0b2fdd2cdf0359197f74d6a7f4123c4d4a05a01014c428223db58651130647&=&format=webp&quality=lossless&width=1057&height=630'/>
+                        <fig ><img alt ="" src ='https://media.discordapp.net/attachments/1205673502149972089/1205984688855056494/Screenshot_2024-02-10_at_3.12.29_PM.png?ex=65da5bc3&is=65c7e6c3&hm=3f0b2fdd2cdf0359197f74d6a7f4123c4d4a05a01014c428223db58651130647&=&format=webp&quality=lossless&width=1057&height=630'/>
                           <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}> Publc Transit Usage and Congestion Pricing</figcaption>
                         </fig>
                       </div>                  
@@ -123,13 +117,45 @@ In London, cars account for 11% of CO2 emissions. In order to achieve the CO2 re
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><CarDeathPieChart/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Figure 1</figcaption>
-                        </fig>
                       </div>                  
                         <p style={{textAlign: "center"}}>
                       <h1>Resources</h1>
 
+    <h6>
+If you’re interested check out these resources to learn more!
+    </h6>
+
+  <p>
+    <a href = 'https://parkingreform.org/'>
+    Parking Reform
+    </a>
+    </p>
+Whether your city needs abundant affordable housing, more bike lanes or transit improvements, parking policy and parking politics are always an obstacle.
+The Parking Reform Network is here to support activists and professionals working in any discipline or policy area impacted by car parking.
+<p>
+    <p>
+    <a href = 'https://www.youtube.com/@NotJustBikes'>
+    Not Just Bikes
+    </a>
+    </p>
+ 
+NotJustBikes is a youtube channel that highlights how human centric transportation policies can make living in cities that much more enjoyable
+    </p>
+    <p>
+    <a
+href = 'https://www.strongtowns.org/ '>
+    Strong Towns
+    </a>
+    </p>
+    <p>
+    Strong Towns contains is an educative content hub and movement center for those who seek to take action and improve their own communities
+    </p>
+
+SLDC Climate Change Action Plan
+The South Lakeland District Council (SLDC) Climate Change Action Plan outlines strategies and initiatives to address climate change impacts within the South Lakeland district. It’s focus areas include: Emission Reduction Targets, Renewable Energy Promotion, Energy Efficient Measures, Transportation Strategies
+
+Research Evidence of Congestion Charging in European Countries
+The evidence recorded here covers effects of congestion charging—a type of road user charge whereby vehicles are charged to enter a particular zone during a set period
                       </p>
                     </div>
                   </div>
@@ -141,7 +167,6 @@ In London, cars account for 11% of CO2 emissions. In order to achieve the CO2 re
     </>
   );
 };
-
 export default Demo1;
 
 
