@@ -30,15 +30,11 @@ function Navigation() {
                 href="#problem"><FaCarSide /> Problem </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#data"><BsGraphUp/>Data 
+                href="#solutions"><BsGraphUp/>Solutions
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#info">Info
-              </Nav.Link>
-              <Nav.Link 
-                onClick={(e) => onPress(e)} 
-                href="#solution">Solution
+                href="#resources">Resources
               </Nav.Link>
             </Nav>
           </Container>

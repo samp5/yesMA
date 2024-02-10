@@ -156,7 +156,7 @@ const scrollToTop = () => {
             </div>
 
             <div className="grid grid-rows-2 grid-flow-rows gap-1"> 
-                <div id="Solutions" style={{alignItems: 'center', justifyContent: 'center'}}>
+                <div id="solutions" style={{alignItems: 'center', justifyContent: 'center'}}>
                   <div className='rounded-2xl flex-auto'  style={{backgroundColor: "rgba(255, 255, 255, 0.4)", margin: '25px'}}>
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       
