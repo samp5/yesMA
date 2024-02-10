@@ -18,28 +18,23 @@ function Navigation() {
     <>
     <Navbar bg="dark" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Navbar.Brand href="#home">Car Dependency and the Environment</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
                 href="#orange">Orange
-                <div data-to-scrollspy-id="brown" className={"ss-item"}>
-                  orange
-                </div>
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
                 href="#brown">Brown
-                <div data-to-scrollspy-id="brown" className={"ss-item"}>
-                  brown
-                </div>
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#orange">Orange
-                <div data-to-scrollspy-id="brown" className={"ss-item"}>
-                  orange
-                </div>
+                href="#green">Green
+              </Nav.Link>
+              <Nav.Link 
+                onClick={(e) => onPress(e)} 
+                href="#blue">Blue
               </Nav.Link>
             </Nav>
           </Container>
