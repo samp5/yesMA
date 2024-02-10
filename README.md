@@ -18,7 +18,7 @@ Driving Change is a website dedicated to exploring solutions for reducing car de
 - Our hosted website is found at [[INSERT LINK TO HOSTED WEBSITE HERE]]
 - or ⤵
 
-##View with a Local Installation:
+## View with a Local Installation:
 1. Clone the repository:
 ```
 git clone https://github.com/samp5/yesMA
