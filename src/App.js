@@ -2,10 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import { React, useState, useEffect} from 'react';
 import BRT from './pages/BRT';
+import { useState, React, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import PieChart from './components/PieChart';
 function App() {
   useEffect(() => {
     const changeBackground = () => {
