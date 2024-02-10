@@ -8,6 +8,16 @@ import { useState, useEffect } from 'react';
 
 
 function Navigation() {
+
+  const onPress = (e) => {
+    e.preventDefault();
+    const target = window.document.getElementById(
+      e.currentTarget.href.split("#")[1]
+    );
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
     <Navbar className="bg-gradient-to-r from-green to-light-green" sticky = "top" variant = "light" bg="bg-gradient-to-r from-purple-500 to-pink-500" data-bs-theme="light">
