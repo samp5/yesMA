@@ -79,8 +79,8 @@ Any unnatural death is one too many. Cars are a major cause of harm and deaths t
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><CarDeathPieChart/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Figure 1</figcaption>
+                        <fig ><img src = 'https://media.discordapp.net/attachments/1205673502149972089/1205987146855620708/image.png?ex=65da5e0d&is=65c7e90d&hm=d6740d6dcef0e1edb5d08cb805dd2d6cf1e1b89bc94c478a47a82ca503b3b32d&=&format=webp&quality=lossless&width=1057&height=463'/>
+                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Transportion Growth due to Bus Rapid Transit</figcaption>
                         </fig>
                       </div>                  
                         <p style={{textAlign: "center"}}>
@@ -112,7 +112,6 @@ One possible solution to combat car dependency is implementing congestion pricin
 As there are a very small number of countries that have implemented congestion charges, the issue would only get better if more countries opened up. In the U.S., it has yet to be implemented due to decades of policy proposals and political infighting. 
 In London, cars account for 11% of CO2 emissions. In order to achieve the CO2 reduction targets in the Climate Change Action Plan—globally reducing carbon emission by 45% by 2030—the transport sector must deliver savings of 7 million tonnes of CO2 per annum by 2025. 
 
-
                       </p>
                     </div>
                   </div>
@@ -131,23 +130,6 @@ In London, cars account for 11% of CO2 emissions. In order to achieve the CO2 re
                       </div>                  
                         <p style={{textAlign: "center"}}>
                       <h1>Resources</h1>
-
-                      </p>
-                    </div>
-                  </div>
-              </div>
-
-              <div id="resources2" style={{alignItems: 'center', justifyContent: 'center'}}>
-                  <div className='rounded-2xl flex-auto'  style={{backgroundColor: "rgba(255, 255, 255, 0.4)",margin: '25px'}}>
-                    <div className="grid grid-rows-1 grid-flow-col gap-1">
-                      
-                      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><CarDeathPieChart/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Figure 1</figcaption>
-                        </fig>
-                      </div>                  
-                        <p style={{textAlign: "center"}}>
-                      <h1>Resources2</h1>
 
                       </p>
                     </div>
