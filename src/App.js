@@ -44,7 +44,6 @@ function App() {
   return (
     <div>
     <Navigation />
-    <RoadSpace/>
     < BRT />
     < Footer />
     </div>
