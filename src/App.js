@@ -17,7 +17,14 @@ function App() {
       const totalDocScrollLength = docHeight - winHeight;
       const scrollPosition = Math.floor(scrollPos / totalDocScrollLength * 100);
 
-      document.body.style.backgroundColor = `rgba(114, ${255 - scrollPosition}, 185)`;
+      //let red = Math.round(21 + (30 - 21) + scrollPosition);
+      //let green = Math.round(122 + (174 - 122) + scrollPosition);
+      //let blue = Math.round(92 + (131 - 92) + scrollPosition);
+
+      //document.body.style.backgroundColor = `rgba(${red}, ${green}, ${blue}, 1)`;
+
+      document.body.style.backgroundColor = `rgba(21, ${Math.min(122 + scrollPosition, 255)}, 92)`;
+      //document.Navigation.style.backgroundColor = `rgba(21, ${Math.min(122 + scrollPosition, 255)}, 92)`;
     }
 
     const getDocHeight = () => {

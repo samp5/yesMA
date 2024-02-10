@@ -1,10 +1,40 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { FaGithub } from "react-icons/fa";
+import { useState, useEffect } from 'react';
+
 
 export default function Footer() {
+  const [backgroundColor, setBackgroundColor] = useState('');
+
+  useEffect(() => {
+    const changeBackground = () => {
+      const scrollPos = window.pageYOffset;
+      const winHeight = window.innerHeight;
+      const docHeight = getDocHeight();
+
+      const totalDocScrollLength = docHeight - winHeight;
+      const scrollPosition = Math.floor(scrollPos / totalDocScrollLength * 100);
+
+      setBackgroundColor(`rgba(21, ${Math.min(122 + scrollPosition, 255)}, 92)`);
+    }
+
+    const getDocHeight = () => {
+      return Math.max(
+        document.body.scrollHeight, document.documentElement.scrollHeight,
+        document.body.offsetHeight, document.documentElement.offsetHeight,
+        document.body.clientHeight, document.documentElement.clientHeight
+      );
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
+    return () => {
+      window.removeEventListener('scroll', changeBackground);
+    }
+  }, []);
   return (
-    <MDBFooter bgColor='light' className='bg-gradient-to-l from-green to-light-green text-center text-lg-start text-muted'>
+    <MDBFooter className='border border-sky-1000'>
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
