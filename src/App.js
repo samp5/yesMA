@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   useEffect(() => {
     const changeBackground = () => {
@@ -16,14 +17,7 @@ function App() {
       const totalDocScrollLength = docHeight - winHeight;
       const scrollPosition = Math.floor(scrollPos / totalDocScrollLength * 100);
 
-      //let red = Math.round(21 + (30 - 21) + scrollPosition);
-      //let green = Math.round(122 + (174 - 122) + scrollPosition);
-      //let blue = Math.round(92 + (131 - 92) + scrollPosition);
-
-      //document.body.style.backgroundColor = `rgba(${red}, ${green}, ${blue}, 1)`;
-
-      document.body.style.backgroundColor = `rgba(21, ${Math.min(122 + scrollPosition, 255)}, 92)`;
-      //document.Navigation.style.backgroundColor = `rgba(21, ${Math.min(122 + scrollPosition, 255)}, 92)`;
+      document.body.style.backgroundColor = `rgba(217, ${Math.min(240+(scrollPosition*0.9), 255)}, 191)`;
     }
 
     const getDocHeight = () => {

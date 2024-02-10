@@ -20,7 +20,7 @@ function Navigation() {
   };
   return (
     <>
-    <Navbar className="bg-gradient-to-r from-green to-light-green" sticky = "top" variant = "light" bg="bg-gradient-to-r from-purple-500 to-pink-500" data-bs-theme="light">
+    <Navbar className="bg-gradient-to-t from-tan to-pastel-green" sticky = "top" variant = "light" data-bs-theme="light">
           <Container>
             <Navbar.Brand href="#">Car Dependency and the Environment</Navbar.Brand>
             <Nav className="me-auto">
