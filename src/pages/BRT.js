@@ -17,7 +17,6 @@ const scrollToTop = () => {
     <>
       <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
     <div className='grid grid-rows-4 grid-flow-col gap-4'>
-
           <div id="problem" style={{alignItems: 'center', justifyContent: 'center'}}>
               <div className='rounded-2xl flex-auto'  style={{backgroundColor: "rgba(255, 255, 255, 0.4)", margin: '25px'}}>
               <img src="../../logo192.png" alt="Sample_Image" style={{objectFit: 'contain', maxHeight: '100%', maxWidth: '100%'}}/>
