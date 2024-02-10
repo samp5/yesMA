@@ -17,7 +17,6 @@ const Demo1 = (props) => {
  
   return (
     <>
-    <Navigation />
       <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
       <div id="problem" style={{backgroundColor: "orange", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
         <h1>Problem</h1>
