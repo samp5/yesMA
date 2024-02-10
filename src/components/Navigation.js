@@ -8,7 +8,6 @@ import { useState, useEffect } from 'react';
 
 
 function Navigation() {
-
   const onPress = (e) => {
     e.preventDefault();
     const target = window.document.getElementById(
