@@ -1,10 +1,7 @@
 import ScrollSpy from "react-ui-scrollspy";
 import  Navigation from '../components/Navigation';
 import React, { useEffect } from 'react';
-import { ParallaxProvider} from 'react-scroll-parallax';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import { useParallax } from 'react-scroll-parallax';
-import { Parallax } from 'react-parallax';
 
 const Demo1 = (props) => {
   useEffect(() => {
@@ -17,8 +14,6 @@ const scrollToTop = () => {
  
   return (
     <>
-    <Navigation/>
-
       <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
       <div id="problem" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
         <div style={{backgroundColor: "rgba(26, 168, 98, 0.5)", width: `65vw`, margin: '150px 50px'}}>
