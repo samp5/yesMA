@@ -4,9 +4,7 @@ Driving Change is a website dedicated to exploring solutions for reducing car de
 ## Features
 
 - **Graphs and Interactive Data Visualization**: Interact with and build data intuition with visualized data that reveals the impact of cars on our world.
-- **information Resources**: By providing further reading about the 
-- **Resources**: Access helpful guides, tools, and resources for individuals and communities looking to reduce their reliance on cars.
-- **Discussion Forum**: Engage with like-minded individuals, share experiences, and exchange ideas about sustainable transit options.
+- **information Resources**: By providing further reading about the effect of cars on our environment and quality of life. Access resources for individuals and communities looking to reduce their reliance on cars.
 
 ## Technologies Used
 
@@ -19,6 +17,7 @@ Driving Change is a website dedicated to exploring solutions for reducing car de
 ## Visit our Website
 - Our hosted website is found at [[INSERT LINK TO HOSTED WEBSITE HERE]]
 - or ⤵
+
 ##View with a Local Installation:
 1. Clone the repository:
 ```
