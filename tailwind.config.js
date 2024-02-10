@@ -11,6 +11,7 @@ module.exports = {
       'tan': '#D3D0CB',
       'pink': '#A07E90',
       'brown': '#6B4B3E',
+      'pastel-green': '#d9ebbf'
     },
     extend: {},
   },
