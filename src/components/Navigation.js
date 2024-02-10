@@ -22,19 +22,19 @@ function Navigation() {
             <Nav className="me-auto">
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#orange">Orange
+                href="#problem">Problem
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#brown">Brown
+                href="#data">Data
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#green">Green
+                href="#info">Info
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#blue">Blue
+                href="#solution">Solution
               </Nav.Link>
             </Nav>
           </Container>
