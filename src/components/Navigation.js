@@ -16,7 +16,7 @@ function Navigation() {
 
   return (
     <>
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar sticky = "top" bg="dark" data-bs-theme="dark">
           <Container>
             <Navbar.Brand href="#home">Car Dependency and the Environment</Navbar.Brand>
             <Nav className="me-auto">
