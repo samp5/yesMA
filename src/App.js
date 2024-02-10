@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import React, { useEffect } from 'react';
+import BRT from './pages/BRT';
+import { useState, React, useEffect } from 'react';
 import PageOne from './pages/BRT';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
@@ -37,7 +38,7 @@ function App() {
   return (
     <div>
     <Navigation />
-    < PageOne />
+    < BRT />
     < Footer />
     </div>
   );

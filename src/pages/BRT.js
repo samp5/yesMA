@@ -1,6 +1,6 @@
 import ScrollSpy from "react-ui-scrollspy";
-import  Navigation from '../components/Navigation';
 import React, { useEffect } from 'react';
+import PieChart from '../components/PieChart';
 import { ParallaxProvider} from 'react-scroll-parallax';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import { useParallax } from 'react-scroll-parallax';
