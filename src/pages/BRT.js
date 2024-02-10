@@ -20,11 +20,10 @@ const scrollToTop = () => {
       <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
     <div className='grid grid-rows-3 grid-flow-rows gap-1'>
 
-            <div className="grid grid-rows-2 grid-flow-rows gap-1"> 
+            <div className="grid grid-rows-2 grid-flow-rows gap-1" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}> 
                 <div id="problem" style={{alignItems: 'center', justifyContent: 'center'}}>
                   <div className='rounded-2xl flex-auto'  style={{backgroundColor: "rgba(255, 255, 255, 0.4)", margin: '25px'}}>
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
-                      
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                         <fig ><CarDeathPieChart/>
                           <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Accident Saftey Data from 2021</figcaption>
@@ -73,7 +72,7 @@ Any unnatural death is one too many. Cars are a major cause of harm and deaths t
               </div>
             </div>
 
-            <div className="grid grid-rows-2 grid-flow-rows gap-1"> 
+            <div className="grid grid-rows-2 grid-flow-rows gap-1" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}> 
                 <div id="solution" style={{alignItems: 'center', justifyContent: 'center'}}>
                   <div className='rounded-2xl flex-auto'  style={{backgroundColor: "rgba(255, 255, 255, 0.4)", margin: '25px'}}>
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
@@ -98,7 +97,7 @@ This will help the economy since every $1,000,000,000 invested in our public tra
 
               <div id="solutions2" style={{alignItems: 'center', justifyContent: 'center'}}>
                   <div className='rounded-2xl flex-auto'  style={{backgroundColor: "rgba(255, 255, 255, 0.4)",margin: '25px'}}>
-                    <div className="grid grid-rows-1 grid-flow-col gap-1">
+                    <div className="grid grid-rows-1 grid-flow-col gap-1" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                         <fig ><img src ='https://media.discordapp.net/attachments/1205673502149972089/1205984688855056494/Screenshot_2024-02-10_at_3.12.29_PM.png?ex=65da5bc3&is=65c7e6c3&hm=3f0b2fdd2cdf0359197f74d6a7f4123c4d4a05a01014c428223db58651130647&=&format=webp&quality=lossless&width=1057&height=630'/>
@@ -118,7 +117,7 @@ In London, cars account for 11% of CO2 emissions. In order to achieve the CO2 re
               </div>
             </div>
 
-            <div className="grid grid-rows-2 grid-flow-rows gap-1"> 
+            <div className="grid grid-rows-2 grid-flow-rows gap-1" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}> 
                 <div id="resources" style={{alignItems: 'center', justifyContent: 'center'}}>
                   <div className='rounded-2xl flex-auto'  style={{backgroundColor: "rgba(255, 255, 255, 0.4)", margin: '25px'}}>
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
