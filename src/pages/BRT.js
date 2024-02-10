@@ -1,7 +1,7 @@
 import ScrollSpy from "react-ui-scrollspy";
-import  Navigation from '../components/Navigation';
 import React, { useEffect } from 'react';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import PieChart from '../components/PieChart';
 
 const Demo1 = (props) => {
   useEffect(() => {
