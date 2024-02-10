@@ -16,7 +16,7 @@ function Navigation() {
 
   return (
     <>
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar bg="dark" data-bs-theme="dark" style={{ position: 'relative', zIndex: 2 }}>
           <Container>
             <Navbar.Brand href="#home">Car Dependency and the Environment</Navbar.Brand>
             <Nav className="me-auto">
