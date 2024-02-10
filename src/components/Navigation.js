@@ -16,7 +16,7 @@ function Navigation() {
 
   return (
     <>
-    <Navbar sticky = "top" bg="dark" data-bs-theme="dark">
+    <Navbar className = "bg-gradient-to-r from-blue ..."sticky = "top" variant = "light"  data-bs-theme="light">
           <Container>
             <Navbar.Brand href="#">Car Dependency and the Environment</Navbar.Brand>
             <Nav className="me-auto">
