@@ -1,13 +1,9 @@
 import ScrollSpy from "react-ui-scrollspy";
 import React, { useEffect } from 'react';
-<<<<<<< HEAD
-import { animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-=======
 import PieChart from '../components/PieChart';
 import { ParallaxProvider} from 'react-scroll-parallax';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import CarDeathPieChart from '../components/CarDeathPieChart';
->>>>>>> origin/premain
 
 const Demo1 = (props) => {
   useEffect(() => {
