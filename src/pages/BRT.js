@@ -11,15 +11,17 @@ const Demo1 = (props) => {
     scrollSpy.update();
   }, []);
 
-  const scrollToTop = () => {
+const scrollToTop = () => {
     scroll.scrollToTop();
   };
  
   return (
     <>
+    <ParallaxProvider>
     <Navigation />
+      <Parallax translateY={[-20, 20]}>
       <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
-      <div id="problem" style={{backgroundColor: "orange", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+      <div id="problem" style={{backgroundColor: "orange", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', margin: '50px'}}>
         <h1>Problem</h1>
         <div style={{display: 'flex', alignItems: 'left'}}>
         <img src="../../logo192.png" alt="Sample_Image" style={{objectFit: 'contain', maxHeight: '100%', maxWidth: '100%'}}/>
@@ -79,7 +81,7 @@ const Demo1 = (props) => {
           </div>
         </div>
 
-        <div id="data" style={{backgroundColor: "brown", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+        <div id="data" style={{backgroundColor: "brown", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', margin: '50px'}}>
           <h1>Data</h1>
           <div style={{display: 'flex', alignItems: 'right'}}>
             <p style={{textAlign: "center"}}>
@@ -129,7 +131,7 @@ const Demo1 = (props) => {
           </div>
         </div>
 
-        <div id="info" style={{backgroundColor: "blue", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+        <div id="info" style={{backgroundColor: "blue", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', margin: '50px'}}>
           <h1>Info</h1>
           <div style={{display: 'flex', alignItems: 'left'}}>
           <img src="../../logo192.png" alt="Sample_Image" style={{objectFit: 'contain', maxHeight: '100%', maxWidth: '100%'}}/>
@@ -183,7 +185,7 @@ const Demo1 = (props) => {
             </p>
           </div>
         </div>
-        <div id="solution" style={{backgroundColor: "green", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+        <div id="solution" style={{backgroundColor: "green", width: `${window.innerWidth}px`, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', margin: '50px'}}>
           <h1>Solution</h1>
           <div style={{display: 'flex', alignItems: 'left'}}>
             <p style={{textAlign: "center"}}>
@@ -226,6 +228,8 @@ const Demo1 = (props) => {
           </div>
         </div>
       </ScrollSpy>
+      </Parallax>
+    </ParallaxProvider>
       
     </>
   );
