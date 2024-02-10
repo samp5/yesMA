@@ -49,7 +49,7 @@ Any unnatural death is one too many. Cars are a major cause of harm and deaths t
                       </div>                  
                         <p style={{textAlign: "center"}}>
                       <h1>Road Usage</h1>
-
+Hate being stuck in traffic every morning and afternoon? Have you ever thought about the amount of space being wasted when so many cars are just transporting one person? This graph illustrates just how space inefficient cars are and how efficient buses are. On a bus, the amount of space per person is just 1.4x that of walking while in cars the amount of space per person is 5x higher!
                       </p>
                     </div>
                   </div>
@@ -124,12 +124,45 @@ In London, cars account for 11% of CO2 emissions. In order to achieve the CO2 re
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><CarDeathPieChart/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Figure 1</figcaption>
-                        </fig>
                       </div>                  
                         <p style={{textAlign: "center"}}>
                       <h1>Resources</h1>
+
+    <h6>
+If you’re interested check out these resources to learn more!
+    </h6>
+
+  <p>
+    <a href = 'https://parkingreform.org/'>
+    Parking Reform
+    </a>
+    </p>
+Whether your city needs abundant affordable housing, more bike lanes or transit improvements, parking policy and parking politics are always an obstacle.
+The Parking Reform Network is here to support activists and professionals working in any discipline or policy area impacted by car parking.
+<p>
+    <p>
+    <a href = 'https://www.youtube.com/@NotJustBikes'>
+    Not Just Bikes
+    </a>
+    </p>
+ 
+NotJustBikes is a youtube channel that highlights how human centric transportation policies can make living in cities that much more enjoyable
+    </p>
+    <p>
+    <a
+href = 'https://www.strongtowns.org/ '>
+    Strong Towns
+    </a>
+    </p>
+    <p>
+    Strong Towns contains is an educative content hub and movement center for those who seek to take action and improve their own communities
+    </p>
+
+SLDC Climate Change Action Plan
+The South Lakeland District Council (SLDC) Climate Change Action Plan outlines strategies and initiatives to address climate change impacts within the South Lakeland district. It’s focus areas include: Emission Reduction Targets, Renewable Energy Promotion, Energy Efficient Measures, Transportation Strategies
+
+Research Evidence of Congestion Charging in European Countries
+The evidence recorded here covers effects of congestion charging—a type of road user charge whereby vehicles are charged to enter a particular zone during a set period
 
                       </p>
                     </div>
@@ -142,7 +175,6 @@ In London, cars account for 11% of CO2 emissions. In order to achieve the CO2 re
     </>
   );
 };
-
 export default Demo1;
 
 
