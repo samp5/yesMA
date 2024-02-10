@@ -4,7 +4,7 @@ function RoadSpace(){
 return (
       <Plot
         data={[
-          {type: 'bar', x: ['Walking','Bicycle','Motorcycle','Bus'], y: [1, 2, 5, 5, 1.4]},
+          {type: 'bar', x: ['Walking','Bicycle','Motorcycle','Car','Bus'], y: [1, 2, 5, 5, 1.4]},
         ]}
         layout={ {
           paper_bgcolor:'rgba(0,0,0,0)',

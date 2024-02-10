@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaCarSide } from "react-icons/fa";
 import { BsGraphUp } from "react-icons/bs";
+import { RiPagesLine } from "react-icons/ri";
 import { useState, useEffect } from 'react';
 
 
@@ -30,11 +31,11 @@ function Navigation() {
                 href="#problem"><FaCarSide /> Problem </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#solutions"><BsGraphUp/>Solutions
+                href="#solution"><BsGraphUp/>Solution 
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#resources">Resources
+                href="#resources"><RiPagesLine/> Resources
               </Nav.Link>
             </Nav>
           </Container>

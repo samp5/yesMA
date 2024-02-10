@@ -12,7 +12,7 @@ function PieChart({title, values, labels}) {
             type: 'pie'
           },
         ]}
-        layout={ {width: 320, height: 240, title: title} }
+        layout={ {width: 320, height: 240, title: title, paper_bgcolor:'rgba(0,0,0,0)'} }
       />
     );
   }
