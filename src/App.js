@@ -3,6 +3,7 @@ import './App.css';
 import React, { useEffect } from 'react';
 import PageOne from './pages/BRT';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -35,9 +36,12 @@ function App() {
 
   return (
     <div>
-      <PageOne />
+    <Navigation />
+    < PageOne />
+    < Footer />
     </div>
   );
 }
+
 
 export default App; 

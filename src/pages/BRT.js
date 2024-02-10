@@ -17,8 +17,6 @@ const scrollToTop = () => {
  
   return (
     <>
-    <Navigation/>
-
       <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
       <div id="problem" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
         <div style={{backgroundColor: "rgba(26, 168, 98, 0.5)", width: `65vw`, margin: '150px 50px'}}>

@@ -16,9 +16,9 @@ function Navigation() {
 
   return (
     <>
-    <Navbar bg="dark" data-bs-theme="dark" style={{ position: 'relative', zIndex: 2 }}>
+    <Navbar sticky = "top" bg="dark" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand href="#home">Car Dependency and the Environment</Navbar.Brand>
+            <Navbar.Brand href="#">Car Dependency and the Environment</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
