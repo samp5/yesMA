@@ -6,7 +6,6 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import PieChart from './components/PieChart';
 function App() {
   useEffect(() => {
     const changeBackground = () => {

@@ -23,6 +23,7 @@ function Navigation() {
             <Navbar.Brand href="#">Car Dependency and the Environment</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link 
+                style = {{flexDirection : "row"}}
                 className = "content-center flex-auto"
                 onClick={(e) => onPress(e)} 
                 href="#problem"><FaCarSide /> Problem </Nav.Link>
