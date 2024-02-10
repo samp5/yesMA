@@ -2,7 +2,7 @@
 import React from 'react';
 import Plot from 'react-plotly.js';
 
-function PieChart({values, labels}) {
+function PieChart({title, values, labels}) {
     return (
       <Plot
         data={[
@@ -12,7 +12,7 @@ function PieChart({values, labels}) {
             type: 'pie'
           },
         ]}
-        layout={ {width: 320, height: 240, title: 'A Fancy Plot'} }
+        layout={ {width: 320, height: 240, title: title} }
       />
     );
   }

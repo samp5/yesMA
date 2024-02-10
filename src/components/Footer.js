@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -7,19 +8,6 @@ export default function Footer() {
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
-                yesMA: Car Dependency
-              </h6>
-              <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
@@ -30,30 +18,34 @@ export default function Footer() {
               </p>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+          
+              <h6 className='text-uppercase fw-bold mb-4'> Contributers</h6>
+                <FaGithub/>
               <p>
-                <a href='https://www.youtube.com/watch?v=xvFZjo5PgG0' className='text-reset'>
-                  Or links here?
+                <a href='https://github.com/ykoval201' className='text-reset'>
+                  Yurri Koval
                 </a>
               </p>
-            </MDBCol>
-
-            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contanct Info?</h6>
               <p>
-                <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                <a href='https://github.com/Esgartaq04' className='text-reset'>
+                  Esteban Garcia Taquez
+                </a>
               </p>
               <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                <a href='https://github.com/samp5' className='text-reset'>
+                  Sam Praneis
+                </a>
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <a href='https://github.com/notcoose' className='text-reset'>
+                  Markus Perez
+                </a>
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <a href='https://github.com/httpantwon' className='text-reset'>
+                    Antwon Walls
+                </a>
               </p>
             </MDBCol>
           </MDBRow>

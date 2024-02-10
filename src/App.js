@@ -38,7 +38,6 @@ function App() {
   return (
     <div>
     <Navigation />
-    <PieChart  values={[10, 20, 70]} labels={["a", "this section", "c"]} title={"Test"} />
     < BRT />
     < Footer />
     </div>
