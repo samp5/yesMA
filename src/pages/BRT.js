@@ -1,8 +1,6 @@
 import ScrollSpy from "react-ui-scrollspy";
 import React, { useEffect } from 'react';
-import PieChart from '../components/PieChart';
-import { ParallaxProvider} from 'react-scroll-parallax';
-import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 const Demo1 = (props) => {
   useEffect(() => {

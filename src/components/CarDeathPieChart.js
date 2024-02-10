@@ -55,6 +55,7 @@ function CarDeathPieChart({title, values, labels}) {
         },
         ]}
         layout = {{
+          paper_bgcolor:'rgba(0,0,0,0)',
           height: 400,
           width: 500,
           grid: {rows: 2, columns: 2},
