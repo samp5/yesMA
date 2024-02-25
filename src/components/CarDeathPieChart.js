@@ -59,7 +59,7 @@ function CarDeathPieChart({title, values, labels}) {
           height: 400,
           width: 500,
           grid: {rows: 2, columns: 2},
-          title: "Accident Injuries and Deaths"
+          title: "Accident Injuries and Deaths (2021)"
         }}
       />
     );

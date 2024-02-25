@@ -22,16 +22,16 @@ function Navigation() {
     <>
     <Navbar className="bg-gradient-to-t from-tan to-pastel-green" sticky = "top" variant = "light" data-bs-theme="light">
           <Container>
-            <Navbar.Brand href="#">Car Dependency and the Environment</Navbar.Brand>
+            <Navbar.Brand href="#"><b>Driving Change</b>: An End to Car Dependency</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link 
                 style = {{flexDirection : "row"}}
                 className = "content-center flex-auto"
                 onClick={(e) => onPress(e)} 
-                href="#problem"><FaCarSide /> Problem </Nav.Link>
+                href="#problem"><FaCarSide />Problem</Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 
-                href="#solution"><BsGraphUp/>Solution 
+                href="#solution"><BsGraphUp/>Solutions 
               </Nav.Link>
               <Nav.Link 
                 onClick={(e) => onPress(e)} 

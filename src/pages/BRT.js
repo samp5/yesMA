@@ -20,12 +20,22 @@ const Demo1 = (props) => {
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                         <fig ><CarDeathPieChart/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Source: NHTSA Fatality and Injury Reporting System Tool</figcaption>
+                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Source:&nbsp;<a href="https://cdan.dot.gov/tsftables/tsfar.htm">National Highway Traffic Safety Administration</a></figcaption>
+                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}> Safety Facts Annual Report Tables</figcaption>
                         </fig>
                       </div>                  
                         <p style={{textAlign: "center"}}>
-                      <h1>Safety</h1>
-Any unnatural death is one too many. Cars are a major cause of harm and deaths that can be avoided. These charts highlight how a disproportionate amount of pedestrians die from vehicle-related accidents. It is not okay that we cannot safely walk around our towns and cities without worrying about reckless drivers.
+                      <h1><b>Safety</b></h1>
+                      Any avoidable death is one too many<br/> <br/>Cars are a major cause of harm and deaths that can be avoided, with 46,980 total deaths and 14.3 deaths per 100,000 people in 2021
+                      according to the <a href="https://injuryfacts.nsc.org/motor-vehicle/historical-fatality-trends/deaths-and-rates/"> National Safety Council</a>
+                      .&nbsp;This is no surprise, a human being is no match for a multi-thousand pound metal box moving at anything above low speeds not to mention the collisions between them.
+                      <br/><br/>
+                      These pie charts highlight how a disproportionate ratio of pedestrians die from accidents compared to car occupants.
+                      The top left chart shows the ratio of injured to killed pedistrians and the top right chart shows the ratio of injured to killed car occupants.
+                      Additionally, you are not safe even in your own vehicles, the bottom chart showcases how the majority of deaths are those in cars or on motorcylces.
+
+                      <br/><br/>
+                      Utimately the dangers cars' pose are unacceptable. This is espcially true for pedestrians, who chose to not to use them and are more likely to die if involved in an accident
                       </p>
                     </div>
                   </div>
@@ -52,7 +62,7 @@ Hate being stuck in traffic every morning and afternoon? Have you ever thought a
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <fig ><img alt ="" src ='https://cdn.discordapp.com/attachments/1205673502149972089/1205970137342017697/emissions.png?ex=65da4e36&is=65c7d936&hm=6ef9f587352065bea756b5928ce941c11bc1c0b5b15d83bf85edc0526784772f&'/>
+                        <fig ><img alt ="" src ='https://media.discordapp.net/attachments/1205673502149972089/1205970137342017697/emissions.png?ex=65ecc336&is=65da4e36&hm=434c01412932dcb65fbebbdfa408125fcee1f5be3e945c2d49b7ea9a110b49c2&=&format=webp&quality=lossless&width=504&height=400'/>
                           <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}> Emission's Data </figcaption>
                         </fig>
                       </div>                  
