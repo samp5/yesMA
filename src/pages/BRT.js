@@ -1,6 +1,6 @@
 import ScrollSpy from "react-ui-scrollspy";
-import React, { useEffect } from 'react';
-import { scrollSpy} from 'react-scroll';
+import React, {useEffect } from 'react';
+import {scrollSpy} from 'react-scroll';
 import CarDeathPieChart from '../components/CarDeathPieChart';
 import RoadSpace from "../components/RoadSpace";
 
@@ -20,11 +20,11 @@ const Demo1 = (props) => {
                     <div className="grid grid-rows-1 grid-flow-col gap-1">
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                         <fig ><CarDeathPieChart/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Accident Saftey Data from 2021</figcaption>
+                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Source: NHTSA Fatality and Injury Reporting System Tool</figcaption>
                         </fig>
                       </div>                  
                         <p style={{textAlign: "center"}}>
-                      <h1>Pedestrian Safety and Cars</h1>
+                      <h1>Safety</h1>
 Any unnatural death is one too many. Cars are a major cause of harm and deaths that can be avoided. These charts highlight how a disproportionate amount of pedestrians die from vehicle-related accidents. It is not okay that we cannot safely walk around our towns and cities without worrying about reckless drivers.
                       </p>
                     </div>
@@ -37,7 +37,7 @@ Any unnatural death is one too many. Cars are a major cause of harm and deaths t
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                         <fig ><RoadSpace/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Road Usage by Vechile Type</figcaption>
+                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Road Usage by Vehicle Type</figcaption>
                         </fig>
                       </div>                  
                         <p style={{textAlign: "center"}}>
@@ -53,7 +53,7 @@ Hate being stuck in traffic every morning and afternoon? Have you ever thought a
                       
                       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                         <fig ><img alt ="" src ='https://cdn.discordapp.com/attachments/1205673502149972089/1205970137342017697/emissions.png?ex=65da4e36&is=65c7d936&hm=6ef9f587352065bea756b5928ce941c11bc1c0b5b15d83bf85edc0526784772f&'/>
-                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Emmission Data</figcaption>
+                          <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}> Emission's Data </figcaption>
                         </fig>
                       </div>                  
                         <p style={{textAlign: "center"}}>

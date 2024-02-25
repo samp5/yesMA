@@ -5,9 +5,9 @@ import Plot from 'react-plotly.js';
 function CarDeathPieChart({title, values, labels}) {
       var allLabels = [
 
-        ['Car Occupants','Motocylcists', 'Pedestrians' ],
-        ['Car Dead','Car Injured'],
-        ['Ped Dead','Ped Injured'],
+        ['Car Occupants','Motorcyclists', 'Pedestrians' ],
+        ['Car Occupant Death','Car Occupant Injured'],
+        ['Pedestrian Death','Pedestrian Injured'],
       ];
       var allValues = [
         // totals
@@ -59,7 +59,7 @@ function CarDeathPieChart({title, values, labels}) {
           height: 400,
           width: 500,
           grid: {rows: 2, columns: 2},
-          title: "Accident Data (2021)"
+          title: "Accident Injuries and Deaths"
         }}
       />
     );
