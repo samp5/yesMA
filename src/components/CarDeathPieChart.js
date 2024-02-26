@@ -52,6 +52,7 @@ function CarDeathPieChart({title, values, labels}) {
           },
           hoverinfo: 'label+percent+name',
           textinfo: 'none'
+          
         },
         ]}
         layout = {{
