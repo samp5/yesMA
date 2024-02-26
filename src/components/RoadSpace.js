@@ -10,9 +10,9 @@ return (
           paper_bgcolor:'rgba(0,0,0,0)',
           width: 500, 
           height: 400, 
-          title: 'Road Space Consumption by Vechlie Type Compare to Walking',
+          title: 'Relative Space Usage by Transportation Method',
           font : {
-            size: 9,
+            size: 12,
           }
         }}
       />

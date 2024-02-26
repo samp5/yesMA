@@ -49,9 +49,8 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-          
-              <h6 className='text-uppercase fw-bold mb-4'> Contributers</h6>
-                <FaGithub/>
+              <h6 className='text-uppercase fw-bold mb-4'>
+              <FaGithub/></h6>
               <p>
                 <a href='https://github.com/ykoval201' className='text-reset'>
                   Yurri Koval
@@ -83,7 +82,7 @@ export default function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2024 Copyright:
+        © 2024 Copyright:&nbsp;
         <a className='text-reset fw-bold' href='https://www.youtube.com/watch?v=xvFZjo5PgG0'>
           UICyesMA
         </a>
