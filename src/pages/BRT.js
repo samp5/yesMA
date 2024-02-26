@@ -78,7 +78,7 @@ const Demo1 = (props) => {
               <div className="grid grid-rows-1 grid-flow-col gap-1">
 
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                  <fig ><img alt="" src='https://media.discordapp.net/attachments/1205673502149972089/1205970137342017697/emissions.png?ex=65ecc336&is=65da4e36&hm=434c01412932dcb65fbebbdfa408125fcee1f5be3e945c2d49b7ea9a110b49c2&=&format=webp&quality=lossless&width=504&height=400' />
+                  <fig ><img alt="" src='https://media.discordapp.net/attachments/1205673502149972089/1211771656608026675/newemissions.png?ex=65ef694c&is=65dcf44c&hm=5ce23d2596ca074ec27c76cdd5531f353ebaa05890472ad42e2fc7c6cf181832&=&format=webp&quality=lossless&width=615&height=400' />
                     <figcaption style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                       Source:&nbsp;<a href="https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022">UK Department for Energy Security and Net Zero</a>
                     </figcaption>
